@@ -1,0 +1,546 @@
+REMARK Date 2015-12-27 Time 18:43:41 PST -0800 (1451270621.85 s)
+REMARK PHENIX refinement
+REMARK 
+REMARK ****************** INPUT FILES AND LABELS ******************************
+REMARK Reflections:
+REMARK   file name      : mtz/2ol9.mtz
+REMARK   labels         : ['FOBS,SIGFOBS']
+REMARK R-free flags:
+REMARK   file name      : mtz/2ol9.mtz
+REMARK   label          : R-free-flags
+REMARK   test_flag_value: 0
+REMARK Model file name(s): 
+REMARK   /Users/pafonine/qr/qrefine/pdb/2ol9-H.pdb
+REMARK 
+REMARK ******************** REFINEMENT SUMMARY: QUICK FACTS *******************
+REMARK Start: r_work = 0.0708 r_free = 0.0711 bonds = 0.005 angles = 0.837
+REMARK Final: r_work = 0.0547 r_free = 0.0556 bonds = 0.007 angles = 1.232
+REMARK ************************************************************************
+REMARK 
+REMARK ****************** REFINEMENT STATISTICS STEP BY STEP ******************
+REMARK leading digit, like 1_, means number of macro-cycle                     
+REMARK 0    : statistics at the very beginning when nothing is done yet        
+REMARK 1_bss: bulk solvent correction and/or (anisotropic) scaling             
+REMARK 1_xyz: refinement of coordinates                                        
+REMARK 1_adp: refinement of ADPs (Atomic Displacement Parameters)              
+REMARK 1_occ: refinement of occupancies                                        
+REMARK ------------------------------------------------------------------------
+REMARK  stage       r-work r-free bonds angles b_min b_max b_ave n_water shift
+REMARK        0    : 0.0723 0.0744 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK        1_bss: 0.0708 0.0711 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK  1_settarget: 0.0708 0.0711 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK        1_nqh: 0.0708 0.0711 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK     1_weight: 0.0708 0.0711 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK     1_checkH: 0.0708 0.0711 0.005  0.84   1.0   6.1   1.8  15      0.000
+REMARK      1_fitrh: 0.0704 0.0723 0.005  0.84   1.0   6.1   1.8  15      0.072
+REMARK     1_xyzrec: 0.0750 0.0757 0.005  0.71   1.0   6.1   1.8  15      0.086
+REMARK     1_checkH: 0.0767 0.0771 0.005  0.71   1.0   6.1   1.8  15      0.023
+REMARK        1_adp: 0.0700 0.0708 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK       1_adph: 0.0683 0.0720 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK       1_occh: 0.0678 0.0717 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK        1_occ: 0.0678 0.0713 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK        2_bss: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK  2_settarget: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK  2_updatecdl: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK        2_nqh: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK     2_weight: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK     2_checkH: 0.0677 0.0707 0.005  0.71   0.9   6.5   1.9  15      0.023
+REMARK      2_fitrh: 0.0677 0.0699 0.005  0.71   0.9   6.5   1.9  15      0.056
+REMARK     2_xyzrec: 0.0636 0.0654 0.005  0.73   0.9   6.5   1.9  15      0.055
+REMARK     2_checkH: 0.0636 0.0655 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK        2_adp: 0.0635 0.0654 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK       2_adph: 0.0632 0.0660 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK       2_occh: 0.0632 0.0667 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK        2_occ: 0.0632 0.0658 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK        3_bss: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK  3_settarget: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK  3_updatecdl: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK        3_nqh: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK     3_weight: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK     3_checkH: 0.0631 0.0656 0.005  0.73   0.9   6.5   1.9  15      0.021
+REMARK      3_fitrh: 0.0636 0.0669 0.005  0.73   0.9   6.5   1.9  15      0.095
+REMARK     3_xyzrec: 0.0550 0.0560 0.007  1.24   0.9   6.5   1.9  15      0.097
+REMARK     3_checkH: 0.0551 0.0550 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK        3_adp: 0.0551 0.0550 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK       3_adph: 0.0550 0.0551 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK       3_occh: 0.0548 0.0560 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK        3_occ: 0.0548 0.0555 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK        4_bss: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK  4_settarget: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK  4_updatecdl: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK        4_nqh: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK     4_weight: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK     4_checkH: 0.0548 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.022
+REMARK      4_fitrh: 0.0549 0.0560 0.007  1.24   0.9   6.5   1.9  15      0.099
+REMARK     4_xyzrec: 0.0548 0.0563 0.007  1.26   0.9   6.5   1.9  15      0.099
+REMARK     4_checkH: 0.0547 0.0561 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK        4_adp: 0.0547 0.0561 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK       4_adph: 0.0547 0.0561 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK       4_occh: 0.0547 0.0563 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK        4_occ: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK        5_bss: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK  5_settarget: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK  5_updatecdl: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK        5_nqh: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK     5_weight: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK     5_checkH: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.032
+REMARK      5_fitrh: 0.0550 0.0561 0.007  1.26   0.9   6.5   1.9  15      0.096
+REMARK     5_xyzrec: 0.0550 0.0561 0.007  1.25   0.9   6.5   1.9  15      0.096
+REMARK     5_checkH: 0.0548 0.0560 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK        5_adp: 0.0548 0.0560 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK       5_adph: 0.0548 0.0560 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK       5_occh: 0.0548 0.0563 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK        5_occ: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK        6_bss: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK  6_settarget: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK  6_updatecdl: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK        6_nqh: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK     6_weight: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK     6_checkH: 0.0548 0.0559 0.007  1.25   0.9   6.5   1.9  15      0.031
+REMARK      6_fitrh: 0.0549 0.0565 0.007  1.25   0.9   6.5   1.9  15      0.072
+REMARK     6_xyzrec: 0.0548 0.0564 0.007  1.26   0.9   6.5   1.9  15      0.073
+REMARK     6_checkH: 0.0548 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK        6_adp: 0.0548 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK       6_adph: 0.0547 0.0558 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK       6_occh: 0.0547 0.0563 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK        6_occ: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK        7_bss: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK  7_settarget: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK  7_updatecdl: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK        7_nqh: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK     7_weight: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK     7_checkH: 0.0547 0.0559 0.007  1.26   0.9   6.5   1.9  15      0.033
+REMARK      7_fitrh: 0.0548 0.0563 0.007  1.26   0.9   6.5   1.9  15      0.099
+REMARK     7_xyzrec: 0.0549 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.098
+REMARK     7_checkH: 0.0549 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK        7_adp: 0.0549 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK       7_adph: 0.0549 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK       7_occh: 0.0548 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK        7_occ: 0.0549 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK        8_bss: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK  8_settarget: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK  8_updatecdl: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK        8_nqh: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK     8_weight: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK     8_checkH: 0.0548 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.031
+REMARK      8_fitrh: 0.0549 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.060
+REMARK     8_xyzrec: 0.0548 0.0559 0.007  1.24   0.9   6.5   1.9  15      0.060
+REMARK     8_checkH: 0.0548 0.0559 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK        8_adp: 0.0548 0.0559 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK       8_adph: 0.0547 0.0559 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK       8_occh: 0.0547 0.0564 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK        8_occ: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK        9_bss: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK  9_settarget: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK  9_updatecdl: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK        9_nqh: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK     9_weight: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK     9_checkH: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.033
+REMARK      9_fitrh: 0.0550 0.0560 0.007  1.24   0.9   6.5   1.9  15      0.069
+REMARK     9_xyzrec: 0.0550 0.0560 0.007  1.23   0.9   6.5   1.9  15      0.069
+REMARK     9_checkH: 0.0548 0.0558 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK        9_adp: 0.0548 0.0558 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       9_adph: 0.0548 0.0558 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       9_occh: 0.0548 0.0562 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK        9_occ: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       10_bss: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 10_settarget: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 10_updatecdl: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       10_nqh: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    10_weight: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    10_checkH: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     10_fitrh: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    10_xyzrec: 0.0547 0.0558 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    10_checkH: 0.0547 0.0558 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       10_adp: 0.0547 0.0558 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      10_adph: 0.0547 0.0558 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      10_occh: 0.0547 0.0565 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       10_occ: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       11_bss: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 11_settarget: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 11_updatecdl: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       11_nqh: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    11_weight: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    11_checkH: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK     11_fitrh: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    11_xyzrec: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK    11_checkH: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK       11_adp: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK      11_adph: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK      11_occh: 0.0549 0.0564 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK       11_occ: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK       12_bss: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK 12_settarget: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK 12_updatecdl: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK       12_nqh: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK    12_weight: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK    12_checkH: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK     12_fitrh: 0.0549 0.0558 0.007  1.21   0.9   6.5   1.9  15      0.032
+REMARK    12_xyzrec: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    12_checkH: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       12_adp: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      12_adph: 0.0547 0.0557 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      12_occh: 0.0547 0.0564 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       12_occ: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       13_bss: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 13_settarget: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 13_updatecdl: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       13_nqh: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    13_weight: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    13_checkH: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK     13_fitrh: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    13_xyzrec: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    13_checkH: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       13_adp: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      13_adph: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK      13_occh: 0.0547 0.0564 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       13_occ: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       14_bss: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 14_settarget: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK 14_updatecdl: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK       14_nqh: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    14_weight: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    14_checkH: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK     14_fitrh: 0.0547 0.0556 0.007  1.24   0.9   6.5   1.9  15      0.032
+REMARK    14_xyzrec: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    14_checkH: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       14_adp: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      14_adph: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      14_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       14_occ: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       15_bss: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 15_settarget: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 15_updatecdl: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       15_nqh: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    15_weight: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    15_checkH: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     15_fitrh: 0.0548 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    15_xyzrec: 0.0547 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    15_checkH: 0.0547 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       15_adp: 0.0547 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      15_adph: 0.0547 0.0557 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      15_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       15_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       16_bss: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 16_settarget: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 16_updatecdl: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       16_nqh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    16_weight: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    16_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     16_fitrh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    16_xyzrec: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    16_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       16_adp: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      16_adph: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      16_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       16_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       17_bss: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 17_settarget: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 17_updatecdl: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       17_nqh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    17_weight: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    17_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     17_fitrh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    17_xyzrec: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    17_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       17_adp: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      17_adph: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      17_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       17_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       18_bss: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 18_settarget: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 18_updatecdl: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       18_nqh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    18_weight: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    18_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     18_fitrh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    18_xyzrec: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    18_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       18_adp: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      18_adph: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      18_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       18_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       19_bss: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 19_settarget: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 19_updatecdl: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       19_nqh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    19_weight: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    19_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     19_fitrh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    19_xyzrec: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    19_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       19_adp: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      19_adph: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      19_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       19_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       20_bss: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 20_settarget: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK 20_updatecdl: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       20_nqh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    20_weight: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    20_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK     20_fitrh: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    20_xyzrec: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK    20_checkH: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       20_adp: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      20_adph: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK      20_occh: 0.0547 0.0564 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK       20_occ: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK          end: 0.0547 0.0556 0.007  1.23   0.9   6.5   1.9  15      0.032
+REMARK ------------------------------------------------------------------------
+REMARK MODEL CONTENT.
+REMARK  ELEMENT        ATOM RECORD COUNT   OCCUPANCY SUM
+REMARK        H                       52           36.83
+REMARK        C                       29           29.00
+REMARK        O                       17           17.00
+REMARK        N                       10           10.00
+REMARK    TOTAL                      108           92.83
+REMARK -----------------------------------------------------------------------
+REMARK r_free_flags.md5.hexdigest a96cbc967ba2b65978ecd6217ff1493c
+REMARK 
+REMARK IF THIS FILE IS FOR PDB DEPOSITION: REMOVE ALL FROM THIS LINE UP.
+REMARK   3
+REMARK   3 REFINEMENT.
+REMARK   3   PROGRAM     : PHENIX (dev_svn: ???)
+REMARK   3   AUTHORS     : Adams,Afonine,Bunkoczi,Burnley,Chen,Dar,Davis,
+REMARK   3               : Draizen,Echols,Gildea,Gros,Grosse-Kunstleve,Headd,
+REMARK   3               : Hintze,Hung,Ioerger,McCoy,McKee,Moriarty,Oeffner,
+REMARK   3               : Read,Richardson,Richardson,Sacchettini,Sauter,
+REMARK   3               : Sobolev,Storoni,Terwilliger,Williams,Zwart
+REMARK   3
+REMARK   3  REFINEMENT TARGET : ML
+REMARK   3  
+REMARK   3  DATA USED IN REFINEMENT.
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 0.851   
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 13.447  
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 2.00  
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 82.11 
+REMARK   3   NUMBER OF REFLECTIONS             : 2680      
+REMARK   3   NUMBER OF REFLECTIONS (NON-ANOMALOUS) : 2680      
+REMARK   3  
+REMARK   3  FIT TO DATA USED IN REFINEMENT.
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.0548
+REMARK   3   R VALUE            (WORKING SET) : 0.0547
+REMARK   3   FREE R VALUE                     : 0.0556
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.00  
+REMARK   3   FREE R VALUE TEST SET COUNT      : 134       
+REMARK   3  
+REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).
+REMARK   3   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE  CCWORK CCFREE
+REMARK   3     1 13.4486 -  0.8509    0.82     2546   134  0.0547 0.0556   0.996  0.994
+REMARK   3  
+REMARK   3  BULK SOLVENT MODELLING.
+REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL
+REMARK   3   SOLVENT RADIUS     : 1.11    
+REMARK   3   SHRINKAGE RADIUS   : 0.90    
+REMARK   3   GRID STEP FACTOR   : 4.00    
+REMARK   3  
+REMARK   3  ERROR ESTIMATES.
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.01    
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 3.97    
+REMARK   3  
+REMARK   3  STRUCTURE FACTORS CALCULATION ALGORITHM : FFT
+REMARK   3  
+REMARK   3  RESTRAINTS LIBRARY
+REMARK   3    GEOSTD + MON.LIB. + CDL v1.2
+REMARK   3  
+REMARK   3  DEVIATIONS FROM IDEAL VALUES.
+REMARK   3                 RMSD     MAX  COUNT
+REMARK   3   BOND      :  0.007   0.020     51
+REMARK   3   ANGLE     :  1.232   5.389     68
+REMARK   3   CHIRALITY :  0.071   0.125      6
+REMARK   3   PLANARITY :  0.006   0.012     11
+REMARK   3   DIHEDRAL  : 19.734  65.820     18
+REMARK   3   MIN NONBONDED DISTANCE : 2.684 
+REMARK   3  
+REMARK   3  MOLPROBITY STATISTICS.
+REMARK   3   ALL-ATOM CLASHSCORE : 0.00
+REMARK   3   RAMACHANDRAN PLOT:
+REMARK   3     OUTLIERS : 0.00  %
+REMARK   3     ALLOWED  : 0.00  %
+REMARK   3     FAVORED  : 100.00 %
+REMARK   3   ROTAMER OUTLIERS : 0.00 %
+REMARK   3   CBETA DEVIATIONS : 0
+REMARK   3  
+REMARK   3  ATOMIC DISPLACEMENT PARAMETERS.
+REMARK   3   WILSON B : 1.76
+REMARK   3   RMS(B_ISO_OR_EQUIVALENT_BONDED) : 0.47
+REMARK   3   ATOMS          NUMBER OF ATOMS
+REMARK   3                    ISO.  ANISO. 
+REMARK   3    ALL         :     52      56
+REMARK   3    ALL (NO H)  :      0      56
+REMARK   3    SOLVENT     :      0       5
+REMARK   3    NON-SOLVENT :      0      51
+REMARK   3    HYDROGENS   :     52       0
+REMARK   3
+CRYST1   14.002    4.879   15.100  75.23  75.88  78.89 P 1
+SCALE1      0.071418 -0.014019 -0.015272        0.00000
+SCALE2      0.000000  0.208872 -0.046757        0.00000
+SCALE3      0.000000  0.000000  0.069978        0.00000
+ATOM      1  N   SER A   1      11.674  -1.463  11.118  1.00  1.88           N
+ANISOU    1  N   SER A   1      197    272    246     -1     42    -23       N
+ATOM      2  CA  SER A   1      11.222  -0.378  10.208  1.00  1.66           C
+ANISOU    2  CA  SER A   1      185    219    228      2     33    -18       C
+ATOM      3  C   SER A   1       9.971  -0.859   9.487  1.00  1.23           C
+ANISOU    3  C   SER A   1      179    130    158     -2      1     12       C
+ATOM      4  O   SER A   1       9.774  -2.059   9.319  1.00  1.51           O
+ANISOU    4  O   SER A   1      210    155    209     17    -45    -27       O
+ATOM      5  CB  SER A   1      12.338   0.002   9.235  1.00  2.35           C
+ANISOU    5  CB  SER A   1      250    333    311     -4     99     13       C
+ATOM      6  OG  SER A   1      13.379   0.703   9.905  1.00  3.65           O
+ANISOU    6  OG  SER A   1      316    582    488    -46    128    107       O
+ATOM      7  H1  SER A   1      12.263  -1.139  11.701  1.00 50.58           H
+ATOM      8  H2  SER A   1      10.974  -1.796  11.554  0.73  5.81           H
+ATOM      9  H3  SER A   1      12.056  -2.109  10.638  0.99  6.52           H
+ATOM     10  HA  SER A   1      10.988   0.404  10.733  0.67  0.23           H
+ATOM     11  HB2 SER A   1      12.699  -0.804   8.829  1.00  3.39           H
+ATOM     12  HB3 SER A   1      11.969   0.577   8.547  0.82  1.28           H
+ATOM     13  HG  SER A   1      14.067   0.709   9.427  0.14 87.90           H
+ATOM     14  N   ASN A   2       9.125   0.095   9.083  1.00  1.27           N
+ANISOU   14  N   ASN A   2      185    129    167    -49    -36    -22       N
+ATOM     15  CA  ASN A   2       7.791  -0.223   8.594  1.00  1.26           C
+ANISOU   15  CA  ASN A   2      181    138    158    -21    -66     18       C
+ATOM     16  C   ASN A   2       7.478   0.514   7.304  1.00  1.16           C
+ANISOU   16  C   ASN A   2      219     92    130    -10    -57     37       C
+ATOM     17  O   ASN A   2       7.789   1.702   7.156  1.00  1.94           O
+ANISOU   17  O   ASN A   2      376    181    179    -80   -127     34       O
+ATOM     18  CB  ASN A   2       6.733   0.199   9.617  1.00  1.34           C
+ANISOU   18  CB  ASN A   2      195    151    165     28    -34    -11       C
+ATOM     19  CG  ASN A   2       7.004  -0.385  10.979  1.00  1.51           C
+ANISOU   19  CG  ASN A   2      230    172    170    -22     21     28       C
+ATOM     20  OD1 ASN A   2       7.063  -1.614  11.151  1.00  1.67           O
+ANISOU   20  OD1 ASN A   2      283    151    201    -51     15     18       O
+ATOM     21  ND2 ASN A   2       7.203   0.484  11.955  1.00  1.77           N
+ANISOU   21  ND2 ASN A   2      295    180    199    -16    -10     60       N
+ATOM     22  H   ASN A   2       9.307   0.934   9.090  1.00  3.46           H
+ATOM     23  HA  ASN A   2       7.713  -1.177   8.444  0.99  0.35           H
+ATOM     24  HB2 ASN A   2       6.736   1.167   9.690  1.00  0.95           H
+ATOM     25  HB3 ASN A   2       5.863  -0.112   9.320  1.00  1.11           H
+ATOM     26 HD21 ASN A   2       7.289   0.208  12.766  0.47  0.00           H
+ATOM     27 HD22 ASN A   2       7.250   1.325  11.779  0.68 11.97           H
+ATOM     28  N   GLN A   3       6.784  -0.181   6.407  1.00  0.95           N
+ANISOU   28  N   GLN A   3      163     93    106     19    -31      9       N
+ATOM     29  CA  GLN A   3       6.244   0.442   5.208  1.00  0.86           C
+ANISOU   29  CA  GLN A   3      134     96     98     32    -21     -6       C
+ATOM     30  C   GLN A   3       4.793   0.023   5.044  1.00  0.97           C
+ANISOU   30  C   GLN A   3      149    100    120      2     -9    -13       C
+ATOM     31  O   GLN A   3       4.486  -1.174   5.040  1.00  1.34           O
+ANISOU   31  O   GLN A   3      167    121    220     12    -33      2       O
+ATOM     32  CB  GLN A   3       7.036   0.038   3.966  1.00  1.09           C
+ANISOU   32  CB  GLN A   3      130    173    112     15    -25    -14       C
+ATOM     33  CG  GLN A   3       6.600   0.807   2.723  1.00  1.18           C
+ANISOU   33  CG  GLN A   3      149    162    136     13      9    -13       C
+ATOM     34  CD  GLN A   3       7.331   0.313   1.498  1.00  1.03           C
+ANISOU   34  CD  GLN A   3      123    122    148     29     -8    -10       C
+ATOM     35  OE1 GLN A   3       7.145  -0.834   1.080  1.00  1.01           O
+ANISOU   35  OE1 GLN A   3      115    125    144     43     -7    -46       O
+ATOM     36  NE2 GLN A   3       8.189   1.145   0.938  1.00  1.32           N
+ANISOU   36  NE2 GLN A   3      178    129    196     32     25    -28       N
+ATOM     37  H   GLN A   3       6.623  -1.022   6.474  0.99  1.07           H
+ATOM     38  HA  GLN A   3       6.274   1.408   5.296  1.00  0.00           H
+ATOM     39  HB2 GLN A   3       7.976   0.216   4.120  0.92  3.50           H
+ATOM     40  HB3 GLN A   3       6.900  -0.909   3.806  1.00  0.00           H
+ATOM     41  HG2 GLN A   3       5.649   0.681   2.581  1.00  1.49           H
+ATOM     42  HG3 GLN A   3       6.798   1.750   2.840  0.75  3.76           H
+ATOM     43 HE21 GLN A   3       8.209   1.968   1.189  0.96  2.71           H
+ATOM     44 HE22 GLN A   3       8.723   0.870   0.321  0.92  1.02           H
+ATOM     45  N   ASN A   4       3.916   1.016   4.887  1.00  1.02           N
+ANISOU   45  N   ASN A   4      129    129    129     -9     28    -22       N
+ATOM     46  CA  ASN A   4       2.516   0.797   4.534  1.00  1.11           C
+ANISOU   46  CA  ASN A   4      124    140    159      7     36      4       C
+ATOM     47  C   ASN A   4       2.303   1.290   3.109  1.00  0.96           C
+ANISOU   47  C   ASN A   4      105    105    153     41     20     -4       C
+ATOM     48  O   ASN A   4       2.603   2.449   2.808  1.00  1.64           O
+ANISOU   48  O   ASN A   4      253    171    198      4    -70     30       O
+ATOM     49  CB  ASN A   4       1.580   1.580   5.456  1.00  1.59           C
+ANISOU   49  CB  ASN A   4      229    169    207     15     71    -50       C
+ATOM     50  CG  ASN A   4       1.514   1.003   6.845  1.00  2.37           C
+ANISOU   50  CG  ASN A   4      451    199    249    -22    132     -5       C
+ATOM     51  OD1 ASN A   4       1.466  -0.224   7.027  1.00  3.65           O
+ANISOU   51  OD1 ASN A   4      693    427    268    -91    146      1       O
+ATOM     52  ND2 ASN A   4       1.494   1.883   7.843  1.00  2.80           N
+ANISOU   52  ND2 ASN A   4      466    289    309    -14     88    -25       N
+ATOM     53  H   ASN A   4       4.121   1.844   4.973  0.71  0.93           H
+ATOM     54  HA  ASN A   4       2.307  -0.148   4.583  1.00  0.91           H
+ATOM     55  HB2 ASN A   4       1.890   2.496   5.522  0.78  0.00           H
+ATOM     56  HB3 ASN A   4       0.682   1.553   5.085  1.00  3.30           H
+ATOM     57 HD21 ASN A   4       1.385   1.614   8.650  0.90 35.26           H
+ATOM     58 HD22 ASN A   4       1.592   2.722   7.678  0.42 11.34           H
+ATOM     59  N   ASN A   5       1.779   0.412   2.257  1.00  1.05           N
+ANISOU   59  N   ASN A   5      111    161    126     18     -9     26       N
+ATOM     60  CA  ASN A   5       1.522   0.711   0.847  1.00  0.97           C
+ANISOU   60  CA  ASN A   5      119    109    140     18    -15     -0       C
+ATOM     61  C   ASN A   5       0.022   0.587   0.624  1.00  1.39           C
+ANISOU   61  C   ASN A   5      129    182    218      2     -4     10       C
+ATOM     62  O   ASN A   5      -0.506  -0.516   0.457  1.00  2.05           O
+ANISOU   62  O   ASN A   5      136    258    386    -51      2      6       O
+ATOM     63  CB  ASN A   5       2.306  -0.247  -0.030  1.00  1.06           C
+ANISOU   63  CB  ASN A   5      136    141    126      5    -33    -21       C
+ATOM     64  CG  ASN A   5       3.761  -0.219   0.340  1.00  1.06           C
+ANISOU   64  CG  ASN A   5      145    150    108     27    -16    -30       C
+ATOM     65  OD1 ASN A   5       4.399   0.837   0.276  1.00  1.12           O
+ANISOU   65  OD1 ASN A   5      172    128    124    -37    -20    -13       O
+ATOM     66  ND2 ASN A   5       4.293  -1.343   0.783  1.00  1.37           N
+ANISOU   66  ND2 ASN A   5      168    158    194     -7    -19     16       N
+ATOM     67  H   ASN A   5       1.564  -0.387   2.480  0.79  0.00           H
+ATOM     68  HA  ASN A   5       1.793   1.618   0.646  0.88  1.68           H
+ATOM     69  HB2 ASN A   5       1.967  -1.147   0.089  1.00  0.00           H
+ATOM     70  HB3 ASN A   5       2.221   0.025  -0.956  0.84  2.79           H
+ATOM     71 HD21 ASN A   5       5.110  -1.356   1.053  0.65  1.43           H
+ATOM     72 HD22 ASN A   5       3.824  -2.066   0.795  0.61  0.00           H
+ATOM     73  N   PHE A   6      -0.661   1.713   0.684  1.00  1.57           N
+ANISOU   73  N   PHE A   6      172    131    292    -15    -28     11       N
+ATOM     74  CA  PHE A   6      -2.116   1.729   0.577  1.00  1.51           C
+ANISOU   74  CA  PHE A   6      163    143    269     11     20     28       C
+ATOM     75  C   PHE A   6      -2.593   1.616  -0.878  1.00  1.79           C
+ANISOU   75  C   PHE A   6      146    275    260     31     46     41       C
+ATOM     76  O   PHE A   6      -1.836   1.955  -1.811  1.00  3.29           O
+ANISOU   76  O   PHE A   6      216    746    289     -4     46     86       O
+ATOM     77  CB  PHE A   6      -2.669   2.982   1.245  1.00  1.57           C
+ANISOU   77  CB  PHE A   6      192    127    279     -6     26      0       C
+ATOM     78  CG  PHE A   6      -2.514   2.997   2.746  1.00  1.90           C
+ANISOU   78  CG  PHE A   6      229    174    319     76     13    -18       C
+ATOM     79  CD1 PHE A   6      -1.453   3.667   3.355  1.00  2.55           C
+ANISOU   79  CD1 PHE A   6      313    308    347     38    -53      2       C
+ATOM     80  CD2 PHE A   6      -3.416   2.326   3.558  1.00  2.27           C
+ANISOU   80  CD2 PHE A   6      276    271    317     73     33    -27       C
+ATOM     81  CE1 PHE A   6      -1.321   3.672   4.737  1.00  2.87           C
+ANISOU   81  CE1 PHE A   6      357    365    370     26    -84    -50       C
+ATOM     82  CE2 PHE A   6      -3.291   2.340   4.933  1.00  2.93           C
+ANISOU   82  CE2 PHE A   6      330    465    319    147     14    -51       C
+ATOM     83  CZ  PHE A   6      -2.245   3.015   5.523  1.00  3.16           C
+ANISOU   83  CZ  PHE A   6      396    465    342    153    -67    -75       C
+ATOM     84  OXT PHE A   6      -3.746   1.165  -1.056  1.00  1.94           O
+ANISOU   84  OXT PHE A   6      136    381    222    -22      3    -53       O
+ATOM     85  H   PHE A   6      -0.301   2.490   0.778  0.79  2.22           H
+ATOM     86  HA  PHE A   6      -2.463   0.969   1.067  0.77  0.65           H
+ATOM     87  HB2 PHE A   6      -2.206   3.751   0.881  0.84  0.28           H
+ATOM     88  HB3 PHE A   6      -3.617   3.042   1.043  0.82  0.00           H
+ATOM     89  HD1 PHE A   6      -0.831   4.121   2.832  0.88  3.79           H
+ATOM     90  HD2 PHE A   6      -4.132   1.876   3.171  1.00  4.96           H
+ATOM     91  HE1 PHE A   6      -0.615   4.128   5.140  1.00  3.03           H
+ATOM     92  HE2 PHE A   6      -3.910   1.887   5.462  0.71  0.00           H
+ATOM     93  HZ  PHE A   6      -2.146   3.019   6.449  1.00  2.19           H
+TER
+HETATM   94  O   HOH A   7       9.456  -2.488  12.461  1.00  2.08           O
+ANISOU   94  O   HOH A   7      257    326    207     26     26    -15       O
+HETATM   95  H1  HOH A   7       9.601  -2.377  13.282  0.55  0.00           H
+HETATM   96  H2  HOH A   7       8.696  -2.164  12.305  0.76  3.20           H
+HETATM   97  O   HOH A   8       3.725   0.322  12.122  1.00  3.05           O
+ANISOU   97  O   HOH A   8      348    429    383      1     95     58       O
+HETATM   98  H1  HOH A   8       4.395   0.828  12.119  0.01  2.86           H
+HETATM   99  H2  HOH A   8       3.047   0.818  12.119  0.01  2.33           H
+HETATM  100  O   HOH A   9       3.474  -2.057  10.754  1.00  3.30           O
+ANISOU  100  O   HOH A   9      417    454    383    -80      5     99       O
+HETATM  101  H1  HOH A   9       4.288  -2.262  10.754  0.01  3.34           H
+HETATM  102  H2  HOH A   9       3.428  -1.244  10.961  0.01  3.11           H
+HETATM  103  O   HOH A  10      14.625  -2.122  10.698  1.00  5.84           O
+ANISOU  103  O   HOH A  10      580   1041    597    166     45   -307       O
+HETATM  104  H1  HOH A  10      15.393  -2.345  10.955  0.01  5.24           H
+HETATM  105  H2  HOH A  10      14.731  -1.573  10.071  0.01  5.23           H
+HETATM  106  O   HOH A  11       3.896  -1.499   8.073  1.00  6.50           O
+ANISOU  106  O   HOH A  11      767    994    708     23    179     69       O
+HETATM  107  H1  HOH A  11       4.471  -1.085   7.622  0.01  6.16           H
+HETATM  108  H2  HOH A  11       3.204  -1.022   8.082  0.01  6.16           H
+TER
+END
